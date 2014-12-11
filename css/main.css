@@ -1,0 +1,15 @@
+/**********************
+    GENERAL STYLES 
+**********************/
+
+/**********************
+    PAGE: Homepage
+**********************/
+#WebDev, 
+#CompRepairs,
+#MobRepairs
+#Shop {
+	width:20%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
