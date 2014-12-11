@@ -1,15 +1,53 @@
 /**********************
     GENERAL STYLES 
 **********************/
+body {
+	background-color: #282827;
+}
 
 /**********************
     PAGE: Homepage
 **********************/
+#container {
+	width: 940px;
+	height: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background: white;
+}
+
 #WebDev, 
 #CompRepairs,
-#MobRepairs
+#MobRepairs,
 #Shop {
-	width:20%;
-	margin-left: 5%;
-	margin-right: 5%;
+	float : left;
+	width : 20%;
+	margin : 2.5%;
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+}
+
+#WebDev ul, 
+#CompRepairs ul,
+#MobRepairs ul,
+#Shop ul {
+	margin: 0;
+	padding: 0;
+}
+
+#WebDev li, 
+#CompRepairs li,
+#MobRepairs li,
+#Shop li {
+	list-style-type: none;
+	text-align: center;
+}
+
+/**********************
+   SECTION: Web Dev
+**********************/
+#WebDev img {
+	width: 100%;
+	height: auto;
 }
