@@ -22,9 +22,7 @@
 				</nav>
 			</header>
 		</div> <!-- top div closed -->
-		<div style="height:2px"></div>
-		<div class="line"></div>
-		<div style="height:2px"></div>
+		<img src="./img/xmashr.png" class="hr"> <!-- middle hr rule -->
 		<div id="content">
 			
 
@@ -43,9 +41,7 @@
 			<div style="clear: both;"></div>
 		</div><!-- Content Div Closed -->
 		<div style="clear: both;"></div>
-		<div style="height:25px"></div>
-		<div class="line"></div>
-		<div style="height:25px"></div>
+		<img src="./img/xmashr.png" class="hr"> <!-- middle hr rule -->
 		
 		<div id="footer">
 			<img src="./img/email.jpg" class="icons">
