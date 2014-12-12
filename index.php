@@ -45,7 +45,7 @@
 			<div style="clear: both;"></div>
 		</div><!-- Content Div Closed -->
 		<br><br>
-		<img src="./img/xmashr.png" class="hr"> <!-- bottom hr rule -->
+		<img src="./img/xmashr.png" class="hr2"> <!-- bottom hr rule -->
 		
 		<div id="footer">
 			<center>
