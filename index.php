@@ -10,16 +10,18 @@
 
 <body>
 	<div id="wrapper">
-		<header>
-			<a href="img/logo.png" id="logo"><img src="img/logo.png" class="logo"></a>
-			<nav>
-				<ul>
-					<?php 
-						include 'menu.php';
-					?>
-				</ul>
-			</nav>
-		</header>
+		<div id="top">
+			<header>
+				<a href="img/logo.png" id="logo"><img src="img/logo.png" class="logo"></a>
+				<nav>
+					<ul>
+						<?php 
+							include 'menu.php';
+						?>
+					</ul>
+				</nav>
+			</header>
+		</div>
 
 	<div id="container">
 		<div id="WebDev">
