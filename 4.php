@@ -6,4 +6,7 @@
 		<li>CPUs</li>
 		<li>Printing</li>
 	</ul>
+	<div class="viewButton">
+		<a href="./shop"><p>Shop Now</p></a>
+	</div>
 </center>
