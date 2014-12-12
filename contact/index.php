@@ -10,10 +10,8 @@
 		} else {
 			$root = "../";
 		}
-	?>
-	<link rel="stylesheet" href="./css/normalize.css">
-	<link rel="stylesheet" href="./css/main.css">
-	<?php
+		echo '<link rel="stylesheet" href="'.$root.'css/normalize.css">'."\n";
+		echo '<link rel="stylesheet" href="'.$root.'css/main.css">'."\n";
 		if (date('m') == '12') {
  			echo '<link rel="stylesheet" href="'.$root.'css/snow.css">'."\n";
 		}

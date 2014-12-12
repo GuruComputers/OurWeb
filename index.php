@@ -10,10 +10,8 @@
 		} else {
 			$root = "../";
 		}
-	?>
-	<link rel="stylesheet" href="./css/normalize.css">
-	<link rel="stylesheet" href="./css/main.css">
-	<?php
+		echo '<link rel="stylesheet" href="'.$root.'css/normalize.css">'."\n";
+		echo '<link rel="stylesheet" href="'.$root.'css/main.css">'."\n";
 		if (date('m') == '12') {
  			echo '<link rel="stylesheet" href="'.$root.'css/snow.css">'."\n";
 		}
@@ -38,7 +36,7 @@
 			</header>
 		</div> <!-- top div closed -->
 		<?php
-			echo '<img src="'.$root.'img/xmashr.png" class="hr">';
+			echo '<img src="'.$root.'img/xmashr.png" class="hr">'."\n";
 		?>
 		<div id="content">
 			
@@ -58,16 +56,16 @@
 		</div><!-- Content Div Closed -->
 		<br><br>
 		<?php
-			echo '<img src="'.$root.'img/xmashr.png" class="hr2">';
+			echo '<img src="'.$root.'img/xmashr.png" class="hr2">'."\n";
 		?>
 		
 		<div id="footer">
 			<center>
 				<?php
-					echo '<a href="mailto:support@gurucomputers.co.uk"><img src="'.$root.'img/email.jpg" class="icons">Email Us</a>';
-					echo '<a href="https://www.youtube.com/user/gurucomputersuk" target="_blank"><img src="'.$root.'img/youtube.png" class="icons">Guru Channel</a>';
-					echo '<a href="https://www.facebook.com/GuruComputersUK" target="_blank"><img src="'.$root.'img/facebook.png" class="icons">Guru Facebook</a>';
-					echo '<a href="https://twitter.com/GuruComputersUK" target="_blank"><img src="'.$root.'img/twitter.png" class="icons">Guru Twitter</a>';
+					echo '<a href="mailto:support@gurucomputers.co.uk"><img src="'.$root.'img/email.jpg" class="icons">Email Us</a>'."\n";
+					echo '<a href="https://www.youtube.com/user/gurucomputersuk" target="_blank"><img src="'.$root.'img/youtube.png" class="icons">Guru Channel</a>'."\n";
+					echo '<a href="https://www.facebook.com/GuruComputersUK" target="_blank"><img src="'.$root.'img/facebook.png" class="icons">Guru Facebook</a>'."\n";
+					echo '<a href="https://twitter.com/GuruComputersUK" target="_blank"><img src="'.$root.'img/twitter.png" class="icons">Guru Twitter</a>'."\n";
 				?>
 				<br><br>
 				<?php
