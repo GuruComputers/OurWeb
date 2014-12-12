@@ -41,12 +41,8 @@
 			<div style="clear: both;"></div>
 		</div><!-- Content Div Closed -->
 		<div style="clear: both;"></div>
-<<<<<<< HEAD
 		<br /><br />
-		<img src="./img/xmashr.png" class="hr"> <!-- middle hr rule -->
-=======
 		<img src="./img/xmashr.png" class="hr"> <!-- bottom hr rule -->
->>>>>>> FETCH_HEAD
 		
 		<div id="footer">
 			<center>
