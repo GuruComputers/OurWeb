@@ -40,7 +40,7 @@
 			</div><!-- Shop div closed -->
 
 		
-
+		<div style="clear: both;"></div>
 		<div id="footer">
 		<hr class="line"/>
 			<?php
