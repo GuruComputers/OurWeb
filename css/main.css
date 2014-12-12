@@ -47,7 +47,10 @@ body {
 /**********************
    SECTION: Web Dev
 **********************/
-#WebDev img {
+#WebDev img,
+#CompRepairs img,
+#MobRepairs img,
+#Shop img  {
 	width: 100%;
 	height: auto;
 }
