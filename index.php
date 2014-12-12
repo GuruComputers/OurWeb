@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="./css/main.css">
 	<?php
 		if (date('m') == '12') {
- 			echo "<link rel=\"stylesheet\" href=\"./css/snow.css\">";
+ 			echo "<link rel=\"stylesheet\" href=\"./css/snow.css\">"."\n";
 		}
 	?>
 	<link href='http://fonts.googleapis.com/css?family=Poiret+One|Lobster|Indie+Flower|Raleway:400,500,600,700,800,900' rel='stylesheet' type='text/css'>
