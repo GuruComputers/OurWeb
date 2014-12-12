@@ -1,7 +1,11 @@
 <?php
 	$menu = array("Home", "Portfolio", "Testimonials", "About", "Contact");
 	foreach ($menu as $item) {
-   	 	echo '<li><a href="'.$root.strtolower($item).'.php"';
+		if (strtolower($item) != "home"{
+			echo '<li><a href="'.'./'.strtolower($item).'.php"';
+		} else {
+			echo '<li><a href="./"';
+		}
    	 	if (strtolower($item) == $page){
    	 		echo ' class="selected"';
    	 	}
