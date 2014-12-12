@@ -5,6 +5,11 @@
 	<title>Guru Computers</title>
 	<link rel="stylesheet" href="./css/normalize.css">
 	<link rel="stylesheet" href="./css/main.css">
+	<?php
+		if (date('m') == '12') {
+ 			echo "<link rel=\"stylesheet\" href=\"./css/snow.css\">";
+		}
+	?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
