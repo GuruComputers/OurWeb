@@ -44,7 +44,7 @@
 			</div><!-- Shop div closed -->
 			<div style="clear: both;"></div>
 		</div><!-- Content Div Closed -->
-		<br /><br />
+		<br><br>
 		<img src="./img/xmashr.png" class="hr"> <!-- bottom hr rule -->
 		
 		<div id="footer">
@@ -53,7 +53,7 @@
 				<a href="https://www.youtube.com/user/gurucomputersuk"><img src="./img/youtube.png" class="icons">Guru's Channel</a>
 				<a href="https://www.facebook.com/GuruComputersUK"><img src="./img/facebook.png" class="icons">Guru's Facebook</a>
 				<img src="./img/twitter.png" class="icons">
-				<br/>
+				<br><br>
 				<?php
 					$start=2014;
 					$current=date("Y");
