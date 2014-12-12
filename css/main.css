@@ -12,6 +12,16 @@ body {
 	background: white;
 }
 
+.line {
+    border-top: 1px
+    solid #585858;
+}
+
+#content {
+    width: 100%;
+    height: 800px;
+}
+
 /**********************
     PAGE: Homepage
 **********************/

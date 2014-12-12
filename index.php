@@ -21,9 +21,11 @@
 					</ul>
 				</nav>
 			</header>
-			<hr class="line"/>
 		</div> <!-- top div closed -->
-
+		<div style="height:2px"></div>
+		<div class="line"></div>
+		<div style="height:2px"></div>
+		<div id="content">
 			
 
 			<div id="WebDev">
@@ -38,11 +40,13 @@
 			<div id="Shop">
 				<?php include '4.php' ?>
 			</div><!-- Shop div closed -->
+		</div><!-- Content Div Closed -->
 
+		<div style="height:25px"></div>
+		<div class="line"></div>
+		<div style="height:25px"></div>
 		
-		<div style="clear: both;"></div>
 		<div id="footer">
-		<hr class="line"/>
 			<?php
 				$start=2014;
 				$current=date("Y");
