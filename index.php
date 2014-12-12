@@ -52,7 +52,7 @@
 				<a href="mailto:support@gurucomputers.co.uk"><img src="./img/email.jpg" class="icons">Email Us</a>
 				<a href="https://www.youtube.com/user/gurucomputersuk"><img src="./img/youtube.png" class="icons">Guru's Channel</a>
 				<a href="https://www.facebook.com/GuruComputersUK"><img src="./img/facebook.png" class="icons">Guru's Facebook</a>
-				<img src="./img/twitter.png" class="icons">
+				<a href="https://twitter.com/GuruComputersUK"><img src="./img/twitter.png" class="icons">Guru's Twitter</a>
 				<br><br>
 				<?php
 					$start=2014;
