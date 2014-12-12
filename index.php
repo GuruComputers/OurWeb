@@ -23,9 +23,7 @@
 			</header>
 		</div> <!-- top div closed -->
 
-		<div class="line">
-			<hr/>
-		</div> <!-- line div closed -->
+			<hr class="line"/>
 
 			<div id="WebDev">
 				<?php include '1.php' ?>
@@ -40,9 +38,7 @@
 				<?php include '4.php' ?>
 			</div><!-- Shop div closed -->
 
-		<div class="line">
-			<hr/>
-		</div> <!-- line div closed -->
+		<hr class="line"/>
 
 		<div id="footer">
 			<?php
