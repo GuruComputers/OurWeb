@@ -5,11 +5,7 @@
 	<title>Guru Computers</title>
 	<?php
 		$page = "home";
-		if ($page == "home") {
-			$root = "./";
-		} else {
-			$root = "../";
-		}
+		$root = "./";
 		echo '<link rel="stylesheet" href="'.$root.'css/normalize.css">'."\n";
 		echo '<link rel="stylesheet" href="'.$root.'css/main.css">'."\n";
 		if (date('m') == '12') {
