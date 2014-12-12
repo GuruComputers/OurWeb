@@ -3,8 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<title>Guru Computers</title>
-	<link rel="stylesheet" href="./css/normalize.css">
-	<link rel="stylesheet" href="./css/main.css">
 	<?php
 		$page = "testimonials";
 		if ($page == "home") {
@@ -12,6 +10,10 @@
 		} else {
 			$root = "../";
 		}
+	?>
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<?php
 		if (date('m') == '12') {
  			echo '<link rel="stylesheet" href="'.$root.'css/snow.css">'."\n";
 		}
