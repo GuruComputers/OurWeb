@@ -22,7 +22,7 @@
 				</nav>
 			</header>
 		</div> <!-- top div closed -->
-		<img src="./img/xmashr.png" class="hr"> <!-- middle hr rule -->
+		<img src="./img/xmashr.png" class="hr"> <!-- top hr rule -->
 		<div id="content">
 			
 
@@ -41,7 +41,7 @@
 			<div style="clear: both;"></div>
 		</div><!-- Content Div Closed -->
 		<div style="clear: both;"></div>
-		<img src="./img/xmashr.png" class="hr"> <!-- middle hr rule -->
+		<img src="./img/xmashr.png" class="hr"> <!-- bottom hr rule -->
 		
 		<div id="footer">
 			<img src="./img/email.jpg" class="icons">
