@@ -99,8 +99,8 @@ header {
 }
 
 .viewButton {
-	display: table-cell;
-	vertical-align: bottom;
+	position: absolute;
+	bottom: 0px;
 }
 /**********************
    SECTION: Web Dev
