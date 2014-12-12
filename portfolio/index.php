@@ -21,8 +21,8 @@
 				<nav>
 					<ul>
 						<?php 
-							$page = "home";
-							include './menu.php';
+							$page = "portfolio";
+							include '../menu.php';
 						?>
 					</ul>
 				</nav>
@@ -31,19 +31,6 @@
 		<img src="../img/xmashr.png" class="hr"> <!-- top hr rule -->
 		<div id="content">
 			
-			<div id="WebDev">
-				<?php include './1.php' ?>
-			</div> <!-- WebDev div closed -->
-			<div id="CompRepairs">
-				<?php include './2.php' ?>
-			</div> <!-- CompRepairs div closed -->
-			<div id="MobRepairs">
-				<?php include './3.php' ?>
-			</div> <!-- MobRepairs div closed -->
-			<div id="Shop">
-				<?php include './4.php' ?>
-			</div><!-- Shop div closed -->
-			<div style="clear: both;"></div>
 		</div><!-- Content Div Closed -->
 		<br><br>
 		<img src="../img/xmashr.png" class="hr2"> <!-- bottom hr rule -->
