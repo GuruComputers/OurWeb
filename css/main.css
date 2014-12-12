@@ -34,9 +34,6 @@ body {
 	max-width: 940px;
 }
 
-/**********************
-    GENERAL STYLES 
-**********************/
 p {
 	font-family: 'Raleway', cursive;
 	font-weight: 500;
@@ -51,6 +48,9 @@ h3 {
 	font-family: 'Indie Flower', cursive;
 }
 
+h2 a:link {
+    color: #000;
+}
 /**********************
    SECTION: Header
 **********************/
