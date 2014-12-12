@@ -3,11 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<title>Guru Computers</title>
-	<link rel="stylesheet" href="../css/normalize.css">
-	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/main.css">
 	<?php
+		$page = "about";
+		if ($page == "home") {
+			$root = "./";
+		} else {
+			$root = "../";
+		}
 		if (date('m') == '12') {
- 			echo "<link rel=\"stylesheet\" href=\"../css/snow.css\">"."\n";
+ 			echo '<link rel="stylesheet" href="'.$root.'css/snow.css">'."\n";
 		}
 	?>
 	<link href='http://fonts.googleapis.com/css?family=Poiret+One|Lobster|Indie+Flower|Raleway:400,500,600,700,800,900' rel='stylesheet' type='text/css'>
@@ -17,30 +23,38 @@
 	<div id="wrapper">
 		<div id="top">
 			<header>
-				<a href="../" id="logo"><img src="../img/logo.png" class="logo"></a>
+				<?php
+					echo '<a href="'.$root.'" id="logo"><img src="'.$root.'img/logo.png" class="logo"></a>'."\n";
+				?>
 				<nav>
 					<ul>
 						<?php 
-							$page = "about";
-							include '../menu.php';
+							include $root.'menu.php';
 						?>
 					</ul>
 				</nav>
 			</header>
 		</div> <!-- top div closed -->
-		<img src="../img/xmashr.png" class="hr"> <!-- top hr rule -->
+		<?php
+			echo '<img src="'.$root.'img/xmashr.png" class="hr">';
+		?>
 		<div id="content">
+			
 			
 		</div><!-- Content Div Closed -->
 		<br><br>
-		<img src="../img/xmashr.png" class="hr2"> <!-- bottom hr rule -->
+		<?php
+			echo '<img src="'.$root.'img/xmashr.png" class="hr2">';
+		?>
 		
 		<div id="footer">
 			<center>
-				<a href="mailto:support@gurucomputers.co.uk"><img src="../img/email.jpg" class="icons">Email Us</a>
-				<a href="https://www.youtube.com/user/gurucomputersuk" target="_blank"><img src="../img/youtube.png" class="icons">Guru's Channel</a>
-				<a href="https://www.facebook.com/GuruComputersUK" target="_blank"><img src="../img/facebook.png" class="icons">Guru's Facebook</a>
-				<a href="https://twitter.com/GuruComputersUK" target="_blank"><img src="../img/twitter.png" class="icons">Guru's Twitter</a>
+				<?php
+					echo '<a href="mailto:support@gurucomputers.co.uk"><img src="'.$root.'img/email.jpg" class="icons">Email Us</a>';
+					echo '<a href="https://www.youtube.com/user/gurucomputersuk" target="_blank"><img src="'.$root.'img/youtube.png" class="icons">Guru Channel</a>';
+					echo '<a href="https://www.facebook.com/GuruComputersUK" target="_blank"><img src="'.$root.'img/facebook.png" class="icons">Guru Facebook</a>';
+					echo '<a href="https://twitter.com/GuruComputersUK" target="_blank"><img src="'.$root.'img/twitter.png" class="icons">Guru Twitter</a>';
+				?>
 				<br><br>
 				<?php
 					$start=2014;
