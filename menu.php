@@ -9,7 +9,7 @@
 		if (strtolower($item) != "home"){
 			echo '<li><a href="'.$root.strtolower($item).'/"';
 		} else {
-			echo '<li><a href="./"';
+			echo '<li><a href="'.$root.'"';
 		}
    	 	if (strtolower($item) == $page){
    	 		echo ' class="selected"';
