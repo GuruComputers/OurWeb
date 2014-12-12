@@ -11,5 +11,7 @@
 		<li>PHP</li>
 		<li>Javascript</li>
 	</ul>
-	<a href="./portfolio/web.php" class="viewButton"><p>View our Website Portfolio</p></a>
+	<div class="viewButton">
+		<a href="./portfolio/web.php"><p>View our Website Portfolio</p></a>
+	</div>
 </center>

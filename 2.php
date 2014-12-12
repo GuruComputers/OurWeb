@@ -13,5 +13,7 @@
 		<li>Remote Support</li>
 		<li>Data Recovery</li>
 	</ul>
-	<a href="./services/book.php" class="viewButton"><p>Book a Repair</p></a>
+	<div class="viewButton">
+		<a href="./services/book.php"><p>Book a Repair</p></a>
+	</div>
 </center>
