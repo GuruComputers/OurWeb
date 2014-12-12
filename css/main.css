@@ -92,7 +92,7 @@ nav a:hover {
 	color: green;
 }
 
-nav a .selected {
+.selected {
 	color: red;
 }
 
