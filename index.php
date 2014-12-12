@@ -52,6 +52,7 @@
 			<img src="./img/youtube.png" class="icons">
 			<img src="./img/facebook.png" class="icons">
 			<img src="./img/twitter.png" class="icons">
+			<br/>
 			<?php
 				$start=2014;
 				$current=date("Y");
