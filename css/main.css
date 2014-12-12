@@ -51,6 +51,13 @@ body {
 	text-align: center;
 }
 
+#WebDev a, 
+#CompRepairs a,
+#MobRepairs a,
+#Shop a {
+	text-decoration: none;
+}
+
 /**********************
    SECTION: Web Dev
 **********************/
