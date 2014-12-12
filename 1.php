@@ -12,6 +12,6 @@
 		<li>Javascript</li>
 	</ul>
 	<div class="viewButton">
-		<a href="./portfolio/web.php"><p>View our Website Portfolio</p></a>
+		<a href="./portfolio/web.php">View our Website Portfolio</a>
 	</div>
 </center>

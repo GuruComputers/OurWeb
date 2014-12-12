@@ -7,6 +7,6 @@
 		<li>Printing</li>
 	</ul>
 	<div class="viewButton">
-		<a href="./shop"><p>Shop Now</p></a>
+		<a href="./shop">Shop Now</a>
 	</div>
 </center>
