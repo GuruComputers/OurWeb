@@ -23,24 +23,35 @@
 			</header>
 		</div>
 
-	<div id="container">
-		<div id="WebDev">
-			<?php include '1.php' ?>
+		<div id="container">
+			<div id="WebDev">
+				<?php include '1.php' ?>
+			</div>
+			<div id="CompRepairs">
+				<?php include '2.php' ?>
+			</div>
+			<div id="MobRepairs">
+				<?php include '3.php' ?>
+			</div>
+			<div id="Shop">
+				<?php include '4.php' ?>
+			</div>
 		</div>
-		<div id="CompRepairs">
-			<?php include '2.php' ?>
-		</div>
-		<div id="MobRepairs">
-			<?php include '3.php' ?>
-		</div>
-		<div id="Shop">
-			<?php include '4.php' ?>
-		</div>
-	</div>
 
-	<div id="footer">
-		<?php include 'footer.php' ?>
-	</div>
+		<div id="footer">
+			<?php
+				$start=2014;
+				$current=date("Y");
+				$cy="";
+				if ($current=$start) {
+					$cy=$start;
+				}
+				if ($current>$start) {
+					$cy=$start."-".$current;
+				}
+				echo "&copy"." ".$cy." Guru Computers Ltd."."\n"; 
+			?>
+		</div>
 
 	</div>
 </body>
