@@ -5,6 +5,13 @@ body {
 	background-color: #282827;
 }
 
+#wrapper {
+	width: 940px;
+	height: auto;
+	margin: 0 auto;
+	background: white;
+}
+
 /**********************
     PAGE: Homepage
 **********************/
