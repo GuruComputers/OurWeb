@@ -5,6 +5,6 @@
    	 	if (strtolower($item) == $page){
    	 		echo ' class="selected"';
    	 	}
-   	 	echo '>'.$item.'</a></li>'.'/n';
+   	 	echo '>'.$item.'</a></li>'."\n";
    	 }
 ?>
