@@ -25,13 +25,15 @@ body {
 .hr {
 	margin-top: 15px;
 	margin-bottom: 15px;
+	max-width: 940px;
 }
 
 /**********************
     GENERAL STYLES 
 **********************/
 p {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Raleway', cursive;
+	font-weight: 500;
 }
 
 h2 {
