@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="./css/normalize.css">
 	<link rel="stylesheet" href="./css/main.css">
 	<?php
+		$page = "home";
 		if (date('m') == '12') {
  			echo "<link rel=\"stylesheet\" href=\"./css/snow.css\">"."\n";
 		}
