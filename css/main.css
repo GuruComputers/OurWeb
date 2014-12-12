@@ -93,7 +93,7 @@ nav a:hover {
 }
 
 .selected {
-	background-color: red;
+	color: red;
 }
 
 /**********************
