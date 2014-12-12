@@ -30,7 +30,6 @@
 		<img src="./img/xmashr.png" class="hr"> <!-- top hr rule -->
 		<div id="content">
 			
-
 			<div id="WebDev">
 				<?php include '1.php' ?>
 			</div> <!-- WebDev div closed -->
