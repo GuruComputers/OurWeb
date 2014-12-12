@@ -2,7 +2,7 @@
 	$menu = array("Home", "Portfolio", "Testimonials", "About", "Contact");
 	foreach ($menu as $item) {
 		if (strtolower($item) != "home"){
-			echo '<li><a href="'.'./'.strtolower($item).'.php"';
+			echo '<li><a href="'.'./'.strtolower($item).'/"';
 		} else {
 			echo '<li><a href="./"';
 		}
