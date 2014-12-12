@@ -21,30 +21,30 @@
 					</ul>
 				</nav>
 			</header>
-		</div>
+		</div> <!-- top div closed -->
 
 		<div class="line">
 			<hr/>
-		</div>
+		</div> <!-- line div closed -->
 
 		<div id="container">
 			<div id="WebDev">
 				<?php include '1.php' ?>
-			</div>
+			</div> <!-- WebDev div closed -->
 			<div id="CompRepairs">
 				<?php include '2.php' ?>
-			</div>
+			</div> <!-- CompRepairs div closed -->
 			<div id="MobRepairs">
 				<?php include '3.php' ?>
-			</div>
+			</div> <!-- MobRepairs div closed -->
 			<div id="Shop">
 				<?php include '4.php' ?>
-			</div>
-		</div>
+			</div><!-- Shop div closed -->
+		</div> <!-- container div closed -->
 
 		<div class="line">
 			<hr/>
-		</div>
+		</div> <!-- Mclass div closed -->
 
 		<div id="footer">
 			<?php
@@ -59,8 +59,8 @@
 				}
 				echo "&copy"." ".$cy." Guru Computers Ltd."."\n"; 
 			?>
-		</div>
+		</div> <!-- footer div closed -->
 
-	</div>
+	</div> <!-- wrapper div closed -->
 </body>
 </html>
