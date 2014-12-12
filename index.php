@@ -47,6 +47,10 @@
 		<div style="height:25px"></div>
 		
 		<div id="footer">
+			<img src="img/email.jpg" class="icons">
+			<img src="img/youtube.png" class="icons">
+			<img src="img/facebook.png" class="icons">
+			<img src="img/twitter.png" class="icons">
 			<?php
 				$start=2014;
 				$current=date("Y");
