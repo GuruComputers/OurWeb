@@ -46,7 +46,7 @@
 		<div id="footer">
 			<center>
 				<a href="mailto:support@gurucomputers.co.uk"><img src="./img/email.jpg" class="icons">Email Us</a>
-				<img src="./img/youtube.png" class="icons">
+				<a href="https://www.youtube.com/user/gurucomputersuk"><img src="./img/youtube.png" class="icons">Guru's Channel</a>
 				<img src="./img/facebook.png" class="icons">
 				<img src="./img/twitter.png" class="icons">
 				<br/>
