@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Guru Computers</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -12,7 +12,7 @@
 	<div id="wrapper">
 		<div id="top">
 			<header>
-				<a href="img/logo.png" id="logo"><img src="img/logo.png" class="logo"></a>
+				<a href="./img/logo.png" id="logo"><img src="img/logo.png" class="logo"></a>
 				<nav>
 					<ul>
 						<?php 
@@ -47,10 +47,10 @@
 		<div style="height:25px"></div>
 		
 		<div id="footer">
-			<img src="img/email.jpg" class="icons">
-			<img src="img/youtube.png" class="icons">
-			<img src="img/facebook.png" class="icons">
-			<img src="img/twitter.png" class="icons">
+			<img src="./img/email.jpg" class="icons">
+			<img src="./img/youtube.png" class="icons">
+			<img src="./img/facebook.png" class="icons">
+			<img src="./img/twitter.png" class="icons">
 			<?php
 				$start=2014;
 				$current=date("Y");
