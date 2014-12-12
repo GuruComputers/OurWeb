@@ -6,8 +6,14 @@
 	<link rel="stylesheet" href="./css/normalize.css">
 	<link rel="stylesheet" href="./css/main.css">
 	<?php
+		$page = "home";
+		if ($page == "home") {
+			$root = "./";
+		} else {
+			$root = "../";
+		}
 		if (date('m') == '12') {
- 			echo "<link rel=\"stylesheet\" href=\"./css/snow.css\">"."\n";
+ 			echo '<link rel="stylesheet" href="'.$root.'css/snow.css">'."\n";
 		}
 	?>
 	<link href='http://fonts.googleapis.com/css?family=Poiret+One|Lobster|Indie+Flower|Raleway:400,500,600,700,800,900' rel='stylesheet' type='text/css'>
@@ -21,8 +27,7 @@
 				<nav>
 					<ul>
 						<?php 
-							$page = "home";
-							include 'menu.php';
+							include $root.'menu.php';
 						?>
 					</ul>
 				</nav>
