@@ -84,6 +84,18 @@ nav a {
     color: black;
 }
 
+nav a:visited {
+	color: black;
+}
+
+nav a:hover {
+	color: green;
+}
+
+.selected{
+	color: red;
+}
+
 /**********************
     PAGE: Homepage
 **********************/
