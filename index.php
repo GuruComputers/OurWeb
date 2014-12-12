@@ -45,7 +45,6 @@
 			</div><!-- Shop div closed -->
 			<div style="clear: both;"></div>
 		</div><!-- Content Div Closed -->
-		<div style="clear: both;"></div>
 		<br /><br />
 		<img src="./img/xmashr.png" class="hr"> <!-- bottom hr rule -->
 		
