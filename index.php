@@ -9,35 +9,37 @@
 </head>
 
 <body>
-	<header>
-		<a href="img/logo.png" id="logo"><img src="img/logo.png" class="logo"></a>
-		<nav>
-			<ul>
-				<?php 
-					include 'menu.php';
-				?>
-			</ul>
-		</nav>
-	</header>
+	<div id="wrapper">
+		<header>
+			<a href="img/logo.png" id="logo"><img src="img/logo.png" class="logo"></a>
+			<nav>
+				<ul>
+					<?php 
+						include 'menu.php';
+					?>
+				</ul>
+			</nav>
+		</header>
 
-<div id="container">
-	<div id="WebDev">
-		<?php include '1.php' ?>
+	<div id="container">
+		<div id="WebDev">
+			<?php include '1.php' ?>
+		</div>
+		<div id="CompRepairs">
+			<?php include '2.php' ?>
+		</div>
+		<div id="MobRepairs">
+			<?php include '3.php' ?>
+		</div>
+		<div id="Shop">
+			<?php include '4.php' ?>
+		</div>
 	</div>
-	<div id="CompRepairs">
-		<?php include '2.php' ?>
-	</div>
-	<div id="MobRepairs">
-		<?php include '3.php' ?>
-	</div>
-	<div id="Shop">
-		<?php include '4.php' ?>
-	</div>
-</div>
 
-<div id="footer">
-	<?php include 'footer.php' ?>
-</div>
+	<div id="footer">
+		<?php include 'footer.php' ?>
+	</div>
 
+	</div>
 </body>
 </html>
