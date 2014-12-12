@@ -20,6 +20,7 @@ body {
 	margin: 0 auto;
 	padding: 0 5%;
 	background: grey;
+	height: 940px;
 }
 
 #WebDev, 
@@ -32,7 +33,7 @@ body {
 	background-color: #fff;
 	color: #000;
 	text-align: center;
-	max-height: 100%;
+	height: 100%;
 }
 
 #WebDev ul, 
