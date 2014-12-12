@@ -45,7 +45,7 @@
 		
 		<div id="footer">
 			<center>
-				<img src="./img/email.jpg" class="icons">
+				<a href="mailto:support@gurucomputers.co.uk><img src="./img/email.jpg" class="icons">Email Us</a>
 				<img src="./img/youtube.png" class="icons">
 				<img src="./img/facebook.png" class="icons">
 				<img src="./img/twitter.png" class="icons">
