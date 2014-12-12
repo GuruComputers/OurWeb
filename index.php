@@ -27,7 +27,6 @@
 			<hr/>
 		</div> <!-- line div closed -->
 
-		<div id="container">
 			<div id="WebDev">
 				<?php include '1.php' ?>
 			</div> <!-- WebDev div closed -->
@@ -40,7 +39,6 @@
 			<div id="Shop">
 				<?php include '4.php' ?>
 			</div><!-- Shop div closed -->
-		</div> <!-- container div closed -->
 
 		<div class="line">
 			<hr/>
