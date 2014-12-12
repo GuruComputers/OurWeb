@@ -42,9 +42,6 @@
 			
 		</div><!-- Content Div Closed -->
 		<br><br>
-		<?php
-			echo '<img src="'.$root.'img/xmashr.png" class="hr2">';
-		?>
 		
 		<div id="footer">
 			<center>
