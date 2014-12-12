@@ -44,7 +44,7 @@
 
 		<div class="line">
 			<hr/>
-		</div> <!-- Mclass div closed -->
+		</div> <!-- line div closed -->
 
 		<div id="footer">
 			<?php
