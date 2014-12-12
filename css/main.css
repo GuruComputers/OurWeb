@@ -28,6 +28,21 @@ body {
 }
 
 /**********************
+    GENERAL STYLES 
+**********************/
+p {
+	font-family: 'Poiret One', cursive;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+	font-family: 'Indie Flower', cursive;
+}
+
+/**********************
     PAGE: Homepage
 **********************/
 #WebDev, 
