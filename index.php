@@ -21,9 +21,10 @@
 					</ul>
 				</nav>
 			</header>
+			<hr class="line"/>
 		</div> <!-- top div closed -->
 
-			<hr class="line"/>
+			
 
 			<div id="WebDev">
 				<?php include '1.php' ?>
@@ -38,9 +39,10 @@
 				<?php include '4.php' ?>
 			</div><!-- Shop div closed -->
 
-		<hr class="line"/>
+		
 
 		<div id="footer">
+		<hr class="line"/>
 			<?php
 				$start=2014;
 				$current=date("Y");
