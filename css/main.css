@@ -22,6 +22,11 @@ body {
     height: 800px;
 }
 
+.hr {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 /**********************
     PAGE: Homepage
 **********************/
