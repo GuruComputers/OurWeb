@@ -12,7 +12,7 @@
 	<div id="wrapper">
 		<div id="top">
 			<header>
-				<a href="./img/logo.png" id="logo"><img src="img/logo.png" class="logo"></a>
+				<a href="./" id="logo"><img src="./img/logo.png" class="logo"></a>
 				<nav>
 					<ul>
 						<?php 
