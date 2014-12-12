@@ -8,4 +8,7 @@
 		<li>HDD Upgrades</li>
 		<li>Drive Replacements</li>
 	</ul>
+	<div class="viewButton">
+		<a href="./services/book.php">Book a Repair</a>
+	</div>
 </center>
