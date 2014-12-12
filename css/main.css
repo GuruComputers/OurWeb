@@ -98,6 +98,10 @@ header {
 	text-decoration: none;
 }
 
+.viewButton {
+	display: table-cell;
+	vertical-align: bottom;
+}
 /**********************
    SECTION: Web Dev
 **********************/
