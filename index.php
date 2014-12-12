@@ -22,7 +22,7 @@
 				</nav>
 			</header>
 		</div> <!-- top div closed -->
-		<img src="./img/xmashr.png" class="hr"> <!-- middle hr rule -->
+		<img src="./img/xmashr.png" class="hr"> <!-- top hr rule -->
 		<div id="content">
 			
 
@@ -41,27 +41,33 @@
 			<div style="clear: both;"></div>
 		</div><!-- Content Div Closed -->
 		<div style="clear: both;"></div>
+<<<<<<< HEAD
 		<br /><br />
 		<img src="./img/xmashr.png" class="hr"> <!-- middle hr rule -->
+=======
+		<img src="./img/xmashr.png" class="hr"> <!-- bottom hr rule -->
+>>>>>>> FETCH_HEAD
 		
 		<div id="footer">
-			<img src="./img/email.jpg" class="icons">
-			<img src="./img/youtube.png" class="icons">
-			<img src="./img/facebook.png" class="icons">
-			<img src="./img/twitter.png" class="icons">
-			<br/>
-			<?php
-				$start=2014;
-				$current=date("Y");
-				$cy="";
-				if ($current=$start) {
-					$cy=$start;
-				}
-				if ($current>$start) {
-					$cy=$start."-".$current;
-				}
-				echo "&copy"." ".$cy." Guru Computers Ltd."."\n"; 
-			?>
+			<center>
+				<a href="mailto:support@gurucomputers.co.uk"><img src="./img/email.jpg" class="icons">Email Us</a>
+				<a href="https://www.youtube.com/user/gurucomputersuk"><img src="./img/youtube.png" class="icons">Guru's Channel</a>
+				<a href="https://www.facebook.com/GuruComputersUK"><img src="./img/facebook.png" class="icons">Guru's Facebook</a>
+				<img src="./img/twitter.png" class="icons">
+				<br/>
+				<?php
+					$start=2014;
+					$current=date("Y");
+					$cy="";
+					if ($current=$start) {
+						$cy=$start;
+					}
+					if ($current>$start) {
+						$cy=$start."-".$current;
+					}
+					echo "&copy"." ".$cy." Guru Computers Ltd."."\n"; 
+				?>
+			</center>
 		</div> <!-- footer div closed -->
 
 	</div> <!-- wrapper div closed -->
