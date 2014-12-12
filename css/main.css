@@ -15,14 +15,6 @@ body {
 /**********************
     PAGE: Homepage
 **********************/
-#container {
-	max-width: 100%;
-	margin: 0 auto;
-	padding: 5px 5%;
-	background: grey;
-	height: 800px;
-}
-
 #WebDev, 
 #CompRepairs,
 #MobRepairs,
@@ -68,4 +60,11 @@ body {
 #Shop img  {
 	width: 100%;
 	height: auto;
+}
+
+/**********************
+   SECTION: Footer
+**********************/
+#footer {
+	height: 100%;
 }
