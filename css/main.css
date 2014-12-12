@@ -164,6 +164,8 @@ nav a:hover {
 	position:absolute;
 	right: 35%;
 	bottom: -40px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .viewButton a{
