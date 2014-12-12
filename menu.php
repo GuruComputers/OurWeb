@@ -1,5 +1,5 @@
 <?php
-	$menu = array("Home", "Portfolio", "Testimonials", "About", "Contact");
+	$menu = array("Home", "Portfolio", "Testimonials", "Services", "About", "Contact");
 	foreach ($menu as $item) {
 		if (strtolower($item) != "home"){
 			echo '<li><a href="'.$root.strtolower($item).'/"';
