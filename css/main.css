@@ -64,7 +64,6 @@ nav {
 	margin-top: -170px;
 	text-align: right;
 	padding: 60px 0 0 0;
-	text-decoration: none;
 }
 
 nav ul {
@@ -81,6 +80,7 @@ nav a {
 	padding: 15px 10px;
     font-size: 18px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 /**********************
