@@ -16,8 +16,7 @@ body {
     PAGE: Homepage
 **********************/
 #container {
-	width: 940px;
-	height: 940px;
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 0 5%;
 	background: white;
