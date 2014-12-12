@@ -1,5 +1,5 @@
 <center>
-	<h3 align="center">Shop</h3>
+	<h2 align="center">Shop</h2>
 	<img src="img/shop.png" alt="Shop" title="Shop" />
 	<ul>
 		<li>Motherboards</li>
