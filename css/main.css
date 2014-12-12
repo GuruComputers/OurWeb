@@ -7,7 +7,7 @@ body {
 
 #wrapper {
 	width: 940px;
-	height: auto;
+	min-height: 100%;
 	margin: 0 auto;
 	background: white;
 }
@@ -20,7 +20,6 @@ body {
 	margin: 0 auto;
 	padding: 0 5%;
 	background: grey;
-	height: 940px;
 }
 
 #WebDev, 
