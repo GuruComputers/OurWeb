@@ -44,23 +44,25 @@
 		<img src="./img/xmashr.png" class="hr"> <!-- bottom hr rule -->
 		
 		<div id="footer">
-			<img src="./img/email.jpg" class="icons">
-			<img src="./img/youtube.png" class="icons">
-			<img src="./img/facebook.png" class="icons">
-			<img src="./img/twitter.png" class="icons">
-			<br/>
-			<?php
-				$start=2014;
-				$current=date("Y");
-				$cy="";
-				if ($current=$start) {
-					$cy=$start;
-				}
-				if ($current>$start) {
-					$cy=$start."-".$current;
-				}
-				echo "&copy"." ".$cy." Guru Computers Ltd."."\n"; 
-			?>
+			<center>
+				<img src="./img/email.jpg" class="icons">
+				<img src="./img/youtube.png" class="icons">
+				<img src="./img/facebook.png" class="icons">
+				<img src="./img/twitter.png" class="icons">
+				<br/>
+				<?php
+					$start=2014;
+					$current=date("Y");
+					$cy="";
+					if ($current=$start) {
+						$cy=$start;
+					}
+					if ($current>$start) {
+						$cy=$start."-".$current;
+					}
+					echo "&copy"." ".$cy." Guru Computers Ltd."."\n"; 
+				?>
+			</center>
 		</div> <!-- footer div closed -->
 
 	</div> <!-- wrapper div closed -->
