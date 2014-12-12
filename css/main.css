@@ -122,6 +122,10 @@ nav a {
 	text-decoration: none;
 }
 
+.viewbutton {
+	position: absolute;
+	bottom: -10px;
+}
 
 .viewButton a {
 	background-color:#44c767;
