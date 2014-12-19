@@ -187,7 +187,7 @@ function day_switch($tag, $daynumber) {
         switch ($tag) {
         
         case (1): // Part booked day
-            $txt = "<a href='calendar.php?month=" . $this->month . "&amp;year=" .  $this->year . "&amp;day=" . sprintf("%02s", $daynumber) . "'>
+            $txt = "<a href='index.php?month=" . $this->month . "&amp;year=" .  $this->year . "&amp;day=" . sprintf("%02s", $daynumber) . "'>
                     <img src='images/block_part.gif' title='This day is part booked' border='0' alt=''></a>\r\n";
             break;
 
@@ -208,7 +208,7 @@ function day_switch($tag, $daynumber) {
             break;
             
         default: // FREE
-            $txt = "<a href='calendar.php?month=" .  $this->month . "&amp;year=" .  $this->year . "&amp;day=" . sprintf("%02s", $daynumber) . "'>
+            $txt = "<a href='index.php?month=" .  $this->month . "&amp;year=" .  $this->year . "&amp;day=" . sprintf("%02s", $daynumber) . "'>
                     <img src='images/block_free.gif' title='This day is free' border='0' alt=''></a>\r\n";
             break;
     
@@ -355,6 +355,9 @@ function after_post($month, $day, $year) {
             $result = mysqli_query($this->link, $query) or die(mysqli_error($this->link));      
        
             $this->confirm();  
+
+            $msg = $_POST['name'] . " Has Booked in a Repair";
+            mail("sales@gurucomputers.co.uk","New Repair Booked In",$msg);
                   
         } // Close else
    } // Close function  

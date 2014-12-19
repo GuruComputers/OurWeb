@@ -64,6 +64,7 @@ $forward = strtotime("+1 month", $selected_date);
 		?>
 		<div id="content">
 			<center>
+			<h1>Please Note, We require 24 hours notice before the slot you would like your repair booked for</h1>
 				<?php     
 				if($_SERVER['REQUEST_METHOD'] == 'POST') {
 					$calendar->after_post($month, $day, $year);  
