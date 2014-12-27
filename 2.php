@@ -15,6 +15,6 @@
 	</ul>
 	<br /><br />
 	<div class="viewButton">
-		<a href="./services/book.php">Book a Repair</a>
+		<a href="./services/book/">Book a Repair</a>
 	</div>
 </center>

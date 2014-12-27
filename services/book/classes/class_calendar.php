@@ -320,7 +320,7 @@ function make_form() {
             <td><input class='input' type='text' name='phone' size='32'"; if(isset($_POST['phone'])) echo " value='" . $_POST['phone'] . "'"; echo "></td>
         </tr>
         <tr>
-            <td class='details'>Comments</td>
+            <td class='details'>Please Describe the Issue with your Equipment</td>
             <td><textarea rows='3' cols='30' name='comments' onclick='make_blank();'>";
         if(isset($_POST['comments'])) echo $_POST['comments'];
         echo "</textarea></td>

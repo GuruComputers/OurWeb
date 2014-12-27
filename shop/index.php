@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>Guru Computers</title>
 	<?php
-		$page = "services";
+		$page = "shop";
 		if ($page == "home") {
 			$root = "./";
 		} else {

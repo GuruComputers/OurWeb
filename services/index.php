@@ -39,7 +39,10 @@
 			echo '<img src="'.$root.'img/xmashr.png" class="hr">';
 		?>
 		<div id="content">
-			
+			<center>
+				<h1>Our Services</h1>
+				
+			</center>	
 		</div><!-- Content Div Closed -->
 		<br><br>
 		
