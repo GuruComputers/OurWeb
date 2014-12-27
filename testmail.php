@@ -1,17 +1,30 @@
+<html>
+<head>
+<title>Sending email using PHP</title>
+</head>
+<body>
 <?php
-
-error_reporting(E_ALL);
-$to = "sales@gurucomputers.co.uk";
-$subject = "My subject";
-$txt = "Hello world!";
-$headers = "From: webmaster@example.com";
-
-$mail=mail($to,$subject,$txt,$headers);
-
-if($mail){
-  echo "Thank you for using our mail form";
-}else{
-  echo "Mail sending failed."; 
-}
-
+	if ( function_exists( 'mail' ) )
+	{
+	    echo 'mail() is available';
+	}
+	else
+	{
+	    echo 'mail() has been disabled';
+	} 
+   $to = "robotix.master@gmail.com";
+   $subject = "This is subject";
+   $message = "This is simple text message.";
+   $header = "From:sales@gurucomputers.co.uk \r\n";
+   $retval = mail ($to,$subject,$message,$header);
+   if( $retval == true )  
+   {
+      echo "Email sent successfully to Dave...";
+   }
+   else
+   {
+      echo "Message could not be sent...";
+   }
 ?>
+</body>
+</html>
