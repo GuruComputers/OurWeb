@@ -39,12 +39,14 @@
 			echo '<img src="'.$root.'img/xmashr.png" class="hr">';
 		?>
 		<div id="content">
-			<ul>
+			<ul id="portfolio">
 				<?php
 					$files = scandir('images/'); 
-					foreach (glob("images/*.png") as $file){
-						$withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $file);
-						echo '<li><a href="http://www.'.$withoutExt.'" target="_blank"><img src="images/'.$file.'" alt="Portfolio Image"></a></li>';
+					foreach ($files as $file){
+						if($file != '.' && $file != '..'){
+							$withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $file);
+							echo '<li class="portfolio_item"><a href="http://www.'.$withoutExt.'" target="_blank">'."\n".'<img src="images/'.$file.'" alt="Portfolio Image"></a></li>'."\n";
+						}
 					}
 				?>
 			</ul>	
