@@ -31,8 +31,8 @@
 					foreach ($files as $file){
 						if($file != '.' && $file != '..'){
 							$withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $file);
-							echo '<li class="portfolio_item"><a href="http://www.'.$withoutExt.'" target="_blank">'."\n".'<img src="images/'.$file.'" alt="Portfolio Image"></a>'."\n";
-							echo '<h2>www.'.$withoutExt.'</h2></li>'."\n";
+							echo '<li class="portfolio_item"><a href="http://www.'.$withoutExt.'" target="_blank">'."\n".'<img src="images/'.$file.'" alt="Portfolio Image">'."\n";
+							echo '<h2>www.'.$withoutExt.'</h2></a></li>'."\n";
 						}
 					}
 				?>
