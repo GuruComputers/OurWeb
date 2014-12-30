@@ -1,14 +1,11 @@
 <?php
-	$menu = array("Home", "Portfolio", "Testimonials", "Services", "Shop", "About", "Contact");
+	$menu = array("Portfolio", "Testimonials", "Services", "Shop", "About", "Contact");
 	foreach ($menu as $item) {
-		if (strtolower($item) != "home"){
-			echo '<li><a href="'.$root.strtolower($item).'/"';
+		if (strtolower($item) == "portfolio") {
+			echo '<li><a href="'.$root.strtolower($item).'/web.php"';
 		} else {
-			echo '<li><a href="'.$root.'"';
+			echo '<li><a href="'.$root.strtolower($item).'/"';
 		}
-   	 	if (strtolower($item) == $page){
-   	 		echo ' class="selected"';
-   	 	}
-   	 	echo '>'.$item.'</a></li>'."\n";
-   	 }
+		echo '>'.$item.'</a></li>'."\n";
+	}
 ?>
