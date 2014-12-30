@@ -42,7 +42,7 @@
 			<ul>
 				<?php
 					$files = scandir('images/'); 
-					foreach ($files as $file){
+					foreach (glob("images/*.png") as $file){
 						$withoutExt = preg_replace('/\\.[^.\\s]{3,4}$/', '', $file);
 						echo '<li><a href="http://www.'.$withoutExt.'" target="_blank"><img src="images/'.$file.'" alt="Portfolio Image"></a></li>';
 					}
