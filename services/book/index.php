@@ -24,7 +24,7 @@ $forward = strtotime("+1 month", $selected_date);
 	<?php
 		$page = "services";
 		if ($page == "home") {
-			$root = "../";
+			$root = "./";
 		} else {
 			$root = "../../";
 		}
