@@ -3,9 +3,9 @@
 	error_reporting(E_ALL);
 
 	$servername = "localhost"; // Host name 
-	$username = "sm-roche"; // Mysql username 
-	$password = "customer31337"; // Mysql password 
-	$db_name = "testimonials"; // Database name 
+	$username = "customer"; // Mysql username 
+	$password = "a8y8y8ebe"; // Mysql password 
+	$db_name = "zadmin_testimonials"; // Database name 
 
 	$conn=mysqli_connect($servername, $username, $password, $db_name);
 
