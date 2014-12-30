@@ -1,6 +1,9 @@
 <center>
 	<h2 align="center"><a href="./services/book.php">Computer<br />Repairs</a></h2>
 	<img src="img/comprepair.png" alt="Computer Repair" title="Computer Repair" />
+	<div class="viewButton">
+		<a href="./services/book/">Book a Repair</a>
+	</div>
 	<h3>Computer Running Slow?</h3>
 	<p>Here at Guru Computers Ltd we never put a healthy computer down!</p>
 	<p>We have been busting Computer Viruses as a team for the best part of 17 years, and we aren't going to stop now! With the use of Multi-layered Antivirus Technology, we can provide fast and effective protection against current and future threats.</p>
@@ -14,7 +17,4 @@
 		<li>Data Recovery</li>
 	</ul>
 	<br /><br />
-	<div class="viewButton">
-		<a href="./services/book/">Book a Repair</a>
-	</div>
 </center>
