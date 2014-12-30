@@ -6,6 +6,9 @@
 		} else {
 			echo '<li><a href="'.$root.strtolower($item).'/"';
 		}
+		if (strtolower($item) == $page) {
+			echo ' class="selected"';
+		}
 		echo '>'.$item.'</a></li>'."\n";
 	}
 ?>

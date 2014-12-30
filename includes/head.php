@@ -2,7 +2,11 @@
 	<meta charset="utf-8">
 	<title>Guru Computers</title>
 	<?php
-		$root = "./";
+		if ($page == "home") {
+			$root = "./";
+		} else {
+			$root = "../";
+		}
 		echo '<link rel="stylesheet" href="'.$root.'css/normalize.css">'."\n";
 		echo '<link rel="stylesheet" href="'.$root.'css/main.css">'."\n";
 		if (date('m') == '12') {
