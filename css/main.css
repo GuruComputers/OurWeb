@@ -199,13 +199,27 @@ nav a.selected {
 **********************/
 
 #portfolio {
-	list-style-type: none;
-	padding: 0;
 	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-.portfolio_item img{
-	width: 300px;
+.portfolio_item {
+	float : left;
+	width : 30%;
+	margin : 2.5%;
+	background-color: #f5f5f5;
+}
+
+.portfolio_item h2 {
+	margin: 0;
+	padding: 5%;
+	color: #bdc3c7;
+	text-align: center;
+}
+
+.portfolio_item img {
+	width: 100%;
 }
 
 /**********************
