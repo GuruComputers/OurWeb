@@ -260,9 +260,14 @@ nav a.selected {
    SECTION: Footer
 **********************/
 #footer {
-	width: 100%;
-	margin-top: 20px;
 	padding-bottom: 10px;
+	display: inline-block;
+	position:fixed;
+    bottom:0;
+    margin: auto;
+    width: 940px;
+    background: #fff;
+    border-top: 1px solid #000;
 }
 
 #footer a {
