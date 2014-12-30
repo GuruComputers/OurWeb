@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<?php
-		$page = "porfolio";
+		$page = "portfolio";
 		include "../includes/head.php";
 	?>
 
