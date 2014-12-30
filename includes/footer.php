@@ -1,3 +1,4 @@
+		<br /><br />
 		<div id="footer">
 			<center>
 				<?php
@@ -11,7 +12,7 @@
 					$start=2014;
 					$current=date("Y");
 					$cy="";
-					if ($current=$start) {
+					if ($current==$start) {
 						$cy=$start;
 					}
 					if ($current>$start) {
@@ -21,3 +22,6 @@
 				?>
 			</center>
 		</div> <!-- footer div closed -->
+	</div> <!-- wrapper div closed -->
+</body>
+</html>
