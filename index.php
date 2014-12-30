@@ -1,36 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Guru Computers</title>
 	<?php
 		$page = "home";
-		$root = "./";
-		echo '<link rel="stylesheet" href="'.$root.'css/normalize.css">'."\n";
-		echo '<link rel="stylesheet" href="'.$root.'css/main.css">'."\n";
-		if (date('m') == '12') {
- 			echo '<link rel="stylesheet" href="'.$root.'css/snow.css">'."\n";
-		}
+		include "./includes/head.php";
 	?>
-	<meta name="description" content="Guru Computers Ltd pride ouselves on excellent customer service. we go the extra mile so you don't have too. Our services range from computer parts to bespoke website design. Need a demo cd designed, cd's burnt, printed, packaged then look no further we can do it.">
-	<link href='http://fonts.googleapis.com/css?family=Poiret+One|Lobster|Indie+Flower|Raleway:400,500,600,700,800,900' rel='stylesheet' type='text/css'>
-</head>
 
 <body>
 	<div id="wrapper">
 		<div id="top">
-			<header>
-				<?php
-					echo '<a href="'.$root.'" id="logo"><img src="'.$root.'img/logo.png" class="logo"></a>'."\n";
-				?>
-				<nav>
-					<ul>
-						<?php 
-							include $root.'menu.php';
-						?>
-					</ul>
-				</nav>
-			</header>
+		<?php
+			include $root."includes/header.php";
+		?>
 		</div> <!-- top div closed -->
 		<?php
 			echo '<img src="'.$root.'img/xmashr.png" class="hr">'."\n";
@@ -53,29 +33,9 @@
 		</div><!-- Content Div Closed -->
 		<br><br>
 		
-		<div id="footer">
-			<center>
-				<?php
-					echo '<a href="mailto:support@gurucomputers.co.uk"><img src="'.$root.'img/email.jpg" class="icons">Email Us</a>'."\n";
-					echo '<a href="https://www.youtube.com/user/gurucomputersuk" target="_blank"><img src="'.$root.'img/youtube.png" class="icons">Guru Channel</a>'."\n";
-					echo '<a href="https://www.facebook.com/GuruComputersUK" target="_blank"><img src="'.$root.'img/facebook.png" class="icons">Guru Facebook</a>'."\n";
-					echo '<a href="https://twitter.com/GuruComputersUK" target="_blank"><img src="'.$root.'img/twitter.png" class="icons">Guru Twitter</a>'."\n";
-				?>
-				<br><br>
-				<?php
-					$start=2014;
-					$current=date("Y");
-					$cy="";
-					if ($current=$start) {
-						$cy=$start;
-					}
-					if ($current>$start) {
-						$cy=$start."-".$current;
-					}
-					echo "&copy"." ".$cy." Guru Computers Ltd."."\n"; 
-				?>
-			</center>
-		</div> <!-- footer div closed -->
+		<?php
+			include $root."includes/footer.php";
+		?>
 
 	</div> <!-- wrapper div closed -->
 </body>
