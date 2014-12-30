@@ -53,7 +53,7 @@ $forward = strtotime("+1 month", $selected_date);
 				<nav>
 					<ul>
 						<?php 
-							include $root.'menu.php';
+							include $root.'includes/menu.php';
 						?>
 					</ul>
 				</nav>
