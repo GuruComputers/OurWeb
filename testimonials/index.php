@@ -17,7 +17,7 @@
 		?>
 		<div id="content">
 			<div id ="testimonials_content">
-				<form action="add.php" method="post" accept-charset="utf-8">
+				<form action="add.php" method="post" accept-charset="utf-8" align="center">
     				<fieldset><legend><h1>Add Testimonial</h1></legend>
     					<p>
     						<label for="name"><h2>Your Name</h2></label>
@@ -25,9 +25,9 @@
     					</p>
     					<p>
     						<label><h2>Service Performed</h2></label>
-    						<input type="checkbox" name="comprepair" value="1" /> Computer Repair
-							<input type="checkbox" name="mobrepair" value="1" /> Mobile Phone Repair
-							<input type="checkbox" name="webdev" value="1" /> Website Development
+    						<input type="checkbox" name="comprepair" value="1" /> Computer Repair<br /><br />
+							<input type="checkbox" name="mobrepair" value="1" /> Mobile Phone Repair<br /><br />
+							<input type="checkbox" name="webdev" value="1" /> Website Development<br /><br />
 							<input type="checkbox" name="printing" value="1" /> Printing
     					<p>
     						<label for="rating"><h2>Rating</h2></label>
