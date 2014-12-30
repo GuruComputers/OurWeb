@@ -2,7 +2,7 @@
 <html>
 	<?php
 		$page = "porfolio";
-		include "./includes/head.php";
+		include "../includes/head.php";
 	?>
 
 <body>
