@@ -11,7 +11,7 @@
 			function getData(dataSource, divID) { 
 				if(XMLHttpRequestObject) { 
 					var obj = document.getElementById(divID); 
-					XMLHttpRequestObject.open(“GET”, dataSource); 
+					XMLHttpRequestObject.open("GET", dataSource); 
 					XMLHttpRequestObject.onreadystatechange = function() { 
 						if (XMLHttpRequestObject.readyState == 4 && XMLHttpRequestObject.status == 200) { 
 							obj.innerHTML = XMLHttpRequestObject.responseText; 
