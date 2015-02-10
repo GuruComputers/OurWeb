@@ -8,7 +8,7 @@
 				<h1>Our Services</h1>
 				<p>To book a computer service, click <a href="./book/">here</a></p>
 				<p>Alternatively, give us a call on <a href="tel:01273253567">(01273) 253567</a></p>
-				<div class="ServicesTable">
+				<div class="ServiceTable">
                 <table >
                     <tr>
                         <td>
