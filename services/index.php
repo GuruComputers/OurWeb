@@ -20,14 +20,6 @@
                     </tr>
                     <tr>
                         <td >
-                            CD Printing & Duplication
-                        </td>
-                        <td>
-                            £0.75p per Unit
-                        </td>
-                    </tr>
-                    <tr>
-                        <td >
                             Computer General Service
                         </td>
                         <td>
@@ -64,6 +56,38 @@
                         </td>
                         <td>
                             £15 a month
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            CD Printing & Duplication
+                        </td>
+                        <td>
+                            £0.75p per Unit
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            A5 Full Colour Printing
+                        </td>
+                        <td>
+                            5p per Page
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            A4 Full Colour Printing
+                        </td>
+                        <td>
+                            10p per Page
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            A3 Full Colour Printing
+                        </td>
+                        <td>
+                            20p per Page
                         </td>
                     </tr>
                 </table>

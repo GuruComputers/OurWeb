@@ -286,7 +286,7 @@ nav a.selected {
 **********************/
 .ServiceTable {
 	margin:0px;padding:0px;
-	width:100%;
+	width:95%;
 	box-shadow: 10px 10px 5px #888888;
 	border:1px solid #3f7f00;
 	
@@ -339,7 +339,7 @@ nav a.selected {
 	
 	border:1px solid #3f7f00;
 	border-width:0px 1px 1px 0px;
-	text-align:left;
+	text-align:center;
 	padding:7px;
 	font-size:10px;
 	font-family:Arial;
